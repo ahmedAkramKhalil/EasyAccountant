@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Easy Accounting</string>
+    <string name="item_1">Dashboard</string>
+    <string name="item_2">Sales</string>
+    <string name="item_3">Payments</string>
+    <string name="item_4">Report</string>
+    <string name="item_5">Account</string>
+
+
+</resources>

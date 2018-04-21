@@ -1,0 +1,134 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="0"
+
+    >
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:weightSum="6"
+    android:layout_margin="5dp"
+
+    >
+
+    <EditText
+        android:id="@+id/ed_nam"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="2dp"
+        android:layout_marginRight="5dp"
+        android:hint="Name"
+        />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:weightSum="6"
+        android:layout_margin="5dp"
+
+        >
+
+        <EditText
+            android:id="@+id/ed_des"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:hint="Description"
+            android:padding="2dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:weightSum="6"
+        android:layout_margin="5dp"
+
+        >
+
+        <EditText
+            android:id="@+id/ed_unit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:padding="2dp"
+            android:layout_marginRight="5dp"
+            android:hint="Unit"
+            />
+        <EditText
+            android:id="@+id/ed_price"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:padding="2dp"
+            android:layout_marginRight="5dp"
+            android:hint="Price"
+            android:inputType="number"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:weightSum="6"
+        android:layout_margin="5dp"
+
+        >
+
+        <EditText
+            android:id="@+id/ed_quantity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:padding="2dp"
+            android:layout_marginRight="5dp"
+            android:hint="Quantity"
+            android:inputType="number"
+
+            />
+        <EditText
+            android:id="@+id/ed_discount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:padding="2dp"
+            android:layout_marginRight="5dp"
+            android:hint="Discount % "
+            android:inputType="number"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/board"
+            android:textColor="@android:color/white"
+            android:text="Add"
+
+
+            />
+    </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>
